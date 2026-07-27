@@ -1,7 +1,29 @@
 aid: geneditbio
-name: geneditbio
-description: geneditbio is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geneditbio.png
+name: BreezeBio (formerly GenEdit)
+description: >-
+  BreezeBio, Inc. (formerly GenEdit) is a clinical-stage genetic medicines company based in South
+  San Francisco, California, solving the central delivery problem of gene editing and genetic
+  medicine. Its proprietary NanoGalaxy platform is a library of thousands of non-viral, non-lipid
+  polymer nanoparticles engineered to deliver genetic payloads (mRNA, DNA, and CRISPR
+  ribonucleoprotein) to specific cell types and tissues without triggering an immune response.
+  The company is advancing an internal pipeline of precision genetic medicines focused on
+  autoimmune disease and oncology, led by BRZ-101, a tolerance-inducing candidate for Type 1
+  diabetes. GenEdit rebranded to BreezeBio in February 2026 alongside a $60M Series B, and has
+  established platform partnerships with Roche's Genentech and Sarepta Therapeutics. This is a
+  therapeutics company with no public developer API, SDK, or developer portal; the profile
+  captures its identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/geneditbio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,21 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebranded-to: BreezeBio
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Genetic Medicine
+- Gene Editing
+- Drug Delivery
+- Nanoparticles
+- CRISPR
+- Therapeutics
+- Life Sciences
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,26 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://breezebio.com
+- type: Website
+  name: Legacy domain (GenEdit)
   url: https://geneditbio.com
+- type: Blog
+  name: News
+  url: https://breezebio.com/news/
+- type: Support
+  name: Contact
+  url: https://breezebio.com/contact/
+- type: PrivacyPolicy
+  url: https://breezebio.com/privacy-policy/
+- type: Careers
+  url: https://breezebio.com/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/genedit
+- type: DomainSecurity
+  url: security/geneditbio-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
